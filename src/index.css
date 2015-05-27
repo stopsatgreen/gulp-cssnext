@@ -1,1 +1,7 @@
 body { background-color: blue; }
+
+@custom-media --big-window (min-width: 800px);
+
+@media (--big-window) {
+  body { background-color: red; }
+}

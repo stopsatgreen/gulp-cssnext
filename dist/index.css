@@ -1,1 +1,5 @@
 body { background-color: blue; }
+
+@media (min-width: 800px) {
+  body { background-color: red; }
+}
